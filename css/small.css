@@ -300,7 +300,7 @@ footer {
     'title'
     'social';
   grid-template-rows: 1fr 1fr;
-  padding: .8em;
+  padding: 1.0rem;
   text-align: center;
   min-height: var(--margin-medium);
 }
