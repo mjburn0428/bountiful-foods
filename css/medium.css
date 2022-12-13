@@ -29,13 +29,15 @@
 
 
   /*--------------------- Footer Styles ---------------------*/
-  footer {
-    flex-direction: row;
-  }
 
   /*--------------------- Class Styles ---------------------*/
   .breakRowNav {
     display: none;
+  }
+
+  .row {
+    display: flex;
+    flex-flow: row nowrap;
   }
 
   .rowImg {
