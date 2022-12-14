@@ -85,19 +85,21 @@ function displayOrder(fruits) {
   document.getElementById('orderDetails').appendChild(section);
 }
 
-//Hamburger Button Listener
+//Listener for Hamburger Button
 document.getElementById('navBtn').addEventListener('click', () => {
   document.getElementById('primaryNav').classList.toggle('open');
   document.getElementById('navBtn').classList.toggle('open');
 });
 
-//Show Current year in copyright
+//Copyright year
 const date = new Date();
+
+//Fruit Menu
 const fruitURL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 document.getElementById('copyright').textContent = date.getFullYear();
 getfruit();
 
-//Display help text when the form will not validate
+//Help text when form is not valid
 const form = document.querySelector('form');
 form.addEventListener("change", () => {
   if (form.checkValidity()) {
@@ -110,7 +112,7 @@ form.addEventListener("change", () => {
   }
 });
 
-//Event Listener for Submit Button
+//Listener for Submit Button
 document.getElementById('submitBtn').addEventListener('click', () => {
   if (form.checkValidity()) {
     getNutrition();

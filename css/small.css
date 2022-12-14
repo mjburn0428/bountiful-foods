@@ -128,7 +128,7 @@ input {
 }
 
 input:valid {
-  border-color: blue;
+  border-color: green;
   background-color: #0000ff10;
 }
 
@@ -151,7 +151,7 @@ select:invalid {
 }
 
 select:valid {
-  border-color: blue;
+  border-color: green;
 }
 
 textarea {
@@ -326,7 +326,7 @@ footer {
 }
 
 #hero {
-  background: url('../images/fruits.png') no-repeat center;
+  background: url('../images/hero.webp') no-repeat center;
   background-size: cover;
   border-radius: var(--border-radius);
   display: grid;
